@@ -15,7 +15,7 @@ schedule_ui <- function() {
   # header
   header <- shinydashboard::dashboardHeader(
     title = app_title, titleWidth = app_title_width,
-    tags$li(class = "dropdown", tags$a(href = "https://apps.kopflab.org/app/earthpaths", target="_top", icon("link"), "Switch to ERTH Paths App"))
+    tags$li(class = "dropdown", tags$a(href = "https://apps.kopflab.org/earthpaths", target="_top", icon("link"), "Switch to ERTH Paths App"))
   )
 
   # sidebar
